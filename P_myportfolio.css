@@ -1,0 +1,130 @@
+body,html{
+    background-color: rgb(20, 20, 20);
+    height: 100% ;
+    margin: 0px;
+    overflow-x: hidden;
+}
+ul{
+    width: 100%;
+    position: relative;
+    list-style-type: none;
+    padding: 5px;
+    overflow: hidden;
+}
+li{
+    display: inline;
+}
+p{
+    color:rgb(218, 238, 207)
+}
+li a{
+        padding: 10px;
+        float: right;
+        text-decoration: none;
+        font-size: 20px;
+        transition: transform 1s;
+        opacity: 1.0;
+        margin-right: 20px;
+        margin-top: 40px;
+        color: rgb(0, 245, 163);
+        border-radius: 20px;
+}
+li a:hover{
+    background-color: rgb(51, 50, 50);
+    color: rgb(155, 233, 10);
+    transform: scale(1.2);
+    opacity: 0.9;
+}
+.banner-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0),rgb(0, 0, 0)) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    height: 20%;
+    margin: -17px;
+}
+.banner-text{
+    color: rgb(255, 106, 7);
+    font-size: 30px;
+    position: absolute;
+    top: 0%;
+    display: inline;
+    margin-left: 20px;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    margin-top: 50px;
+    padding: 50px;
+    border-bottom: crimson solid 5px;
+    border-top: crimson solid 5px;
+    border-radius: 40px;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.large-font{
+    font-size: 40px;
+    margin-top: -30px;
+    color: crimson;
+}
+.column-1 {
+    float: left;
+    width: 65%;
+    padding: 20px;
+  }
+.column-2 {
+    float: left;
+    width: 35%;
+    padding: 20px;
+  }
+img{
+    border-radius: 20px;
+    border-left: crimson solid 5px;
+    border-right: crimson solid 5px;
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
+  /*@media screen and (max-width: 1000px) {
+    .column-1,
+    .column-2 {
+      width: 100%;
+      text-align: center;
+    }
+    img {
+      margin: auto;
+    }
+  }*/
+.endline{
+    color: greenyellow;
+    text-align: center;
+    padding: 20px;
+    font-size: 60px;
+}
+.rules{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgb(0,0,0,0.5)), ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    border: 10px solid green;
+    padding: 50px;
+    margin: 0px;
+    border-radius: 50px;
+}
+.widget2{
+    position: relative;
+    left: 20%;
+}
+.widget{
+    position: relative;
+    left: 40%;
+}
